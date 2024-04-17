@@ -9,6 +9,6 @@ const Button = () => {
       </button>
     </Link>
   );
-}
+};
 
-export default Button
+export default Button;
