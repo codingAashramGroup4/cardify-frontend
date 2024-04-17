@@ -5,7 +5,7 @@ const NavBtn = () => {
   console.log(toggle);
   return (
     <>
-      <button onClick={() => setToggle(!toggle)}>
+      <button onClick={() => setToggle(!toggle)} className="lg:hidden">
         <label
           htmlFor="check"
           className="flex flex-col gap-1 p-3 rounded-lg cursor-pointer"
