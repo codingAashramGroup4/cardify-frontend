@@ -30,7 +30,7 @@ const Navbar = () => {
   const NavLinks = [
     {
       title: "Home",
-      link: "home",
+      link: "",
     },
     {
       title: "About Us",
