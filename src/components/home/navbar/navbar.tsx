@@ -62,7 +62,7 @@ const Navbar = () => {
               src="/image/Logo.png"
               width={500}
               height={500}
-              className="size-10"
+              className="size-12"
               alt="Nav Logo"
             />
           </Link>
