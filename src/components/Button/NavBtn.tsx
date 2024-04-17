@@ -1,7 +1,11 @@
+import { useState } from "react";
+
 const NavBtn = () => {
+  const [toggle, setToggle] = useState(Boolean);
+  console.log(toggle);
   return (
     <>
-      <button>
+      <button onClick={() => setToggle(!toggle)}>
         <label
           htmlFor="check"
           className="flex flex-col gap-1 p-3 rounded-lg cursor-pointer"
