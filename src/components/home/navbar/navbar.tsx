@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`bg-heroBg py-4 px-6 3xl:px-16 -z-0`}
+        className="bg-heroBg w-full md:max-w-[1120px] -z-0"
         style={{
           position: "sticky",
           top: `${top}px`,
@@ -59,16 +59,17 @@ const Navbar = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
-              src="/image/Logo.png"
+              src="/image/Nav-Logo.png"
               width={500}
               height={500}
               className="size-12"
               alt="Nav Logo"
             />
+            <h2 className="text-3xl font-semibold">CARDIFY</h2>
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <div className="hidden lg:flex justify-end w-52">
-              <Button />
+              <Button btnText={"Login"} />
             </div>
             <NavBtn />
           </div>
