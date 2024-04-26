@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/swc-win32-x64-msvc": "^14.2.3",
     "axios": "^1.6.8",
     "next": "14.2.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.1.0"
+    "react-icons": "^5.1.0",
+    "string.prototype.trim": "^1.2.9"
   },
   "devDependencies": {
     "@types/node": "^20",
