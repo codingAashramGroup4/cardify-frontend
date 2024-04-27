@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="relative bg-[#1E2230] flex flex-col gap-4 sm:flex-row justify-between p-8 lg:p-12 drop-shadow-lg rounded-lg max-w-6xl px-5 w-11/12">
         <img
           src="/image/Nav-Logo.png"
-          alt="cta"
-          className="absolute top-0 left-0 w-24 z-50"
+          alt="logo"
+          className="absolute top-0 left-0 w-24 -z-50 opacity-35"
         />
         <div className="text-center md:text-left text-xl md:text-2xl font-bold md:whitespace-nowrap">
           Subscribe to CARDIFY<br></br>
