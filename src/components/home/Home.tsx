@@ -5,6 +5,7 @@ import Footer from "./Footer/Footer";
 import Navbar from "./navbar/navbar";
 import Accordion from "./Faq/Faq";
 import Button from "../Button/Button";
+import Customer from "./Customer/Customer";
 const accData = [
   {
     title: "What makes 'CARDIFY' unique compared to other platforms ?",
@@ -56,6 +57,11 @@ const Home = () => {
               <img src="/image/Logo.png" alt="round" />
             </div>
           </div>
+
+          {/* Top Clients */}
+            <Customer/>
+
+          {/* Top Clients */}
           {/* FAQ SECTION */}
           <Accordion data={accData} />
         </div>
